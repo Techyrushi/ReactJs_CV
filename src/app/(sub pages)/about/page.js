@@ -32,10 +32,10 @@ export default function Home() {
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[58%] left-1/2 -translate-y-1/2 -translate-x-1/2">
           <h1 className="font-bold text-yellow-300 text-4xl xs:text-5xl sm:text-6xl  lg:text-7xl text-accent">
-            Abhishek Yadav
+            Rushikesh Chavan
           </h1>
           <p className="font-bold text-white-600 text-foreground text-2xl">
-            &lt; Frontend Developer &gt;
+            &lt; Backend Developer &gt;
           </p>
         </div>
       </div>

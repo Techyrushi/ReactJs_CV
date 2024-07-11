@@ -12,9 +12,9 @@ const inter = Inter({
 export const metadata = {
   title: {
     template:
-      "Abhishek🌻",
+      "Techyrushi🌻",
     default:
-      "Abhishek🌻",
+      "Techyrushi🌻",
   },
 };
 

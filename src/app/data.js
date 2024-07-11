@@ -88,19 +88,19 @@ export const BtnList = [
   },
   {
     label: "Github",
-    link: "https://www.github.com/iqlipse-abhi",
+    link: "https://github.com/Techyrushi",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/abhishek-yadav-11a116212/",
+    link: "https://www.linkedin.com/in/chavanrushikesh/",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "Resume",
-    link: "./Abhishek_yadav_resume_tcs.pdf",
+    link: "./RushikeshChavan_SDE.pdf",
     icon: "resume",
     newTab: true,
   },
