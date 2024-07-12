@@ -36,42 +36,42 @@ export const projectsData = [
 export const ExperienceData = [
   {
     id: 1,
-    name: "Solytics Partners ",
-    description: "[Frontend Developer Intern]",
-    date: "2023-08-23",
+    name: "SSD IT Solutions",
+    description: "[Associate Software Developer]",
+    date: "2024-01-10",
     demoLink:
-      "https://drive.google.com/file/d/1S5x8Yx9hwxQUO-BpvuFGi5-Vy0rjx_9R/view?usp=sharing",
+      "https://drive.google.com/file/d/1yLBl8iH0Yw3pN3Mihjg3sK4UZwx7rDod/view?usp=sharing",
   },
   {
     id: 2,
-    name: "TakeUForward ",
-    description: "[Member of Technical Staff Intern]",
-    date: "2022-03-01",
+    name: "SSD IT Solutions",
+    description: "[Junior Software Developer]",
+    date: "2023-10-13",
     demoLink:
-      "https://drive.google.com/file/d/1pRbV7gMzYf4PCTSNyiwxBwnu_10e7M7u/view?usp=sharing",
+      "https://drive.google.com/file/d/1DoYOrhLAISYcm_kihCNmz5BslksrcV37/view?usp=sharing",
   },
   {
     id: 3,
-    name: "Chegg ",
-    description: "[Subject Matter Expert]",
-    date: "2023-02-01",
+    name: "Salesforce",
+    description: "[Salesforce Developer]",
+    date: "2023-10-5",
     demoLink:
-      "https://drive.google.com/file/d/1yTOCYhm5-RX-mSzvnSJMOLdcKXIK9ALi/view?usp=sharing",
+      "https://smartinternz.com/internships/salesforce_certificates/05e71e929ab347575465baaf5072e1b1",
   },
   {
     id: 4,
-    name: "GeeksForGeeks ",
-    description: "[Technical Content Writer]",
-    date: "2022-05-26",
+    name: "OctaNet",
+    description: "[Web Developer]",
+    date: "2023-08-10",
     demoLink:
-      "https://drive.google.com/file/d/1AnjZyGtwOQ5_StgFfNMiQrSw8Fv3iC5p/view?usp=sharing",
+      "https://certificate.givemycertificate.com/c/9e5126f9-3d92-483b-9505-169341c588cc",
   },
   {
     id: 5,
-    name: "Remotask ",
-    description: "[AI Model Trainer]",
-    date: "2023-11-26",
-    demoLink: "",
+    name: "CodSoft",
+    description: "[Software Developer]",
+    date: "2023-08-05",
+    demoLink: "https://drive.google.com/file/d/1L1IrchKiiPZGoDv69y_2JItOwzNcwfAo/view",
   },
 ];
 
