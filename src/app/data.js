@@ -19,17 +19,59 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "Code Buddy ",
-    description: "[Your Programming Buddy]",
-    date: "2023-05-15",
-    demoLink: "https://github.com/iqlipse-abhi/new-code-buddy",
+    name: "Sachetan Packaging Ecommerce Platform",
+    description: "[Innovative solutions for sustainable packaging needs.]",
+    date: "2024-04-15",
+    demoLink: "https://sachetanpackaging.in/",
+    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
   },
   {
     id: 2,
-    name: "Fundzzz ",
-    description: "[Web-3 Crowdfunding Application]",
+    name: "Foreign Scholarship Web Application",
+    description: "[A Portal for Government Departments that students to apply for FS.]",
+    date: "2024-06-10",
+    demoLink: "https://techyrushi.github.io/Dive-into-My-Tech-Project-Collection/",
+    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
+  },
+  {
+    id: 3,
+    name: "Agency Website",
+    description: "[Professional Agency Website showcasing services and projects.]",
     date: "2024-02-10",
-    demoLink: "https://github.com/iqlipse-abhi/Block_chain",
+    demoLink: "https://techyrushi.github.io/Dive-into-My-Tech-Project-Collection/",
+    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
+  },
+  {
+    id: 4,
+    name: "Heal-in",
+    description: "[A comprehensive platform for mental health resources and support.]",
+    date: "2024-01-20",
+    demoLink: "https://techyrushi.github.io/Dive-into-My-Tech-Project-Collection/",
+    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
+  },
+  {
+    id: 5,
+    name: "Mario Galaxy Resume",
+    description: "[A creative and interactive animated resume.]",
+    date: "2023-12-15",
+    demoLink: "https://techyrushi.github.io/Dive-into-My-Tech-Project-Collection/",
+    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
+  },
+  {
+    id: 6,
+    name: "TrekFreak",
+    description: "[A platform for adventure enthusiasts to plan and share treks.]",
+    date: "2023-10-08",
+    demoLink: "https://techyrushi.github.io/Dive-into-My-Tech-Project-Collection/",
+    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
+  },
+  {
+    id: 7,
+    name: "AgroCraft",
+    description: "[An e-commerce platform for agricultural products and tools.]",
+    date: "2023-07-10",
+    demoLink: "https://techyrushi.github.io/Dive-into-My-Tech-Project-Collection/",
+    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
   },
 ];
 
@@ -41,7 +83,8 @@ export const ExperienceData = [
     date: "2024-01-10",
     demoLink:
       "https://drive.google.com/file/d/1yLBl8iH0Yw3pN3Mihjg3sK4UZwx7rDod/view?usp=sharing",
-  },
+      imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
+    },
   {
     id: 2,
     name: "SSD IT Solutions",
@@ -49,6 +92,7 @@ export const ExperienceData = [
     date: "2023-10-13",
     demoLink:
       "https://drive.google.com/file/d/1DoYOrhLAISYcm_kihCNmz5BslksrcV37/view?usp=sharing",
+      imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
   },
   {
     id: 3,
@@ -57,7 +101,8 @@ export const ExperienceData = [
     date: "2023-10-5",
     demoLink:
       "https://smartinternz.com/internships/salesforce_certificates/05e71e929ab347575465baaf5072e1b1",
-  },
+      imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
+    },
   {
     id: 4,
     name: "OctaNet",
@@ -65,6 +110,7 @@ export const ExperienceData = [
     date: "2023-08-10",
     demoLink:
       "https://certificate.givemycertificate.com/c/9e5126f9-3d92-483b-9505-169341c588cc",
+      imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
   },
   {
     id: 5,
@@ -72,6 +118,7 @@ export const ExperienceData = [
     description: "[Software Developer]",
     date: "2023-08-05",
     demoLink: "https://drive.google.com/file/d/1L1IrchKiiPZGoDv69y_2JItOwzNcwfAo/view",
+    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
   },
 ];
 

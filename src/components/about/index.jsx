@@ -74,7 +74,7 @@ const AboutDetails = () => {
         </ItemLayout>
         <ItemLayout className={"col-span-6 !p-0"}>
           <a
-            href="https://techyrushi.github.io/Dive-into-My-Tech-Project-Collection/"
+            href="https://github.com/Techyrushi/Dive-into-My-Tech-Project-Collection"
             target="_blank"
             rel="noopener noreferrer"
           >
