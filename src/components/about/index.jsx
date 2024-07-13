@@ -87,6 +87,14 @@ const AboutDetails = () => {
           </a>
         </ItemLayout>
 
+        <ItemLayout className={"col-span-full"}>
+          <img
+            className="w-full h-auto"
+            src={`https://raw.githubusercontent.com/avayyyyyyy/avayyyyyyy/output/snake.svg`}
+            alt="Techyrushi"
+            loading="lazy"
+          />
+        </ItemLayout>
 
       </div>
     </section>
