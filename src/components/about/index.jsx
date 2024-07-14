@@ -67,7 +67,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-streak-stats.herokuapp.com?user=Techyrushi&theme=dark&type=png&background=EB545400&ring=FFEF20&border=FFF60C00"
+            src="https://github-readme-streak-stats.herokuapp.com?user=Techyrushi&theme=dark&type=svg&background=EB545400&ring=FFEF20&border=FFF60C00"
             alt="Techyrushi streak"
             loading="lazy"
           />
