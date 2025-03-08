@@ -20,7 +20,7 @@ const DynamicText = () => {
             "Experienced Backend Developer...!",
             "Skilled in JavaScript and NodeJS.",
             "Proficient in PHP, Laravel, MySQL, MongoDB.",
-            "Over One Year of Proven Experience.",
+            "Over 2 Year of Proven Experience.",
             "Passionate About Creating Efficient and Scalable Solutions.",
             "Open to Associate and SDE Roles.",
             "Let's Build Something Amazing Together...",
