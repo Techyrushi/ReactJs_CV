@@ -21,7 +21,7 @@ export const projectsData = [
     id: 1,
     name: "MYYVO Multivendor Ecommerce Platform",
     description: "[dynamic multivendor eCommerce platform that connects businesses and customers with seamless shopping and selling experiences]",
-    date: "2024-08-20",
+    date: "2025-02-10",
     demoLink: "https://myyvo.com/",
     imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
   },
