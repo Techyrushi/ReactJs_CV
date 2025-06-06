@@ -129,36 +129,10 @@ export const ExperienceData = [
     id: 2,
     name: "SSD IT Solutions",
     description: "[Junior Software Developer]",
-    date: "2023-10-13",
+    date: "2023-06-13",
     demoLink:
       "",
       imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
-  },
-  {
-    id: 3,
-    name: "Salesforce",
-    description: "[Salesforce Developer]",
-    date: "2023-10-5",
-    demoLink:
-      "https://smartinternz.com/internships/salesforce_certificates/05e71e929ab347575465baaf5072e1b1",
-      imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
-    },
-  {
-    id: 4,
-    name: "OctaNet",
-    description: "[Web Developer]",
-    date: "2023-08-10",
-    demoLink:
-      "https://certificate.givemycertificate.com/c/9e5126f9-3d92-483b-9505-169341c588cc",
-      imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
-  },
-  {
-    id: 5,
-    name: "CodSoft",
-    description: "[Software Developer]",
-    date: "2023-08-05",
-    demoLink: "https://drive.google.com/file/d/1L1IrchKiiPZGoDv69y_2JItOwzNcwfAo/view",
-    imageUrl: "https://media.istockphoto.com/id/1352367851/vector/dx-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=_m2prNR3aJFKZ-AH5kVKMr9RGmBnKoWU6J-ExRMBaC0=",
   },
 ];
 
@@ -187,7 +161,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "https://drive.google.com/file/d/1ZcuxOuhNAleu_RRVRcey1IK387O4POW8/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1D2x5zYl0s6mVWiwQDLQu9NhucAyybEWg/view?usp=sharing",
     icon: "resume",
     newTab: true,
   },
