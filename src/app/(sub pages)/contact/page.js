@@ -23,12 +23,10 @@ export default function Contact() {
             summon the wizard
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-            Step into the circle of enchantment and weave your words into the
-            fabric of the cosmos. Whether you seek to conjure collaborations,
-            unlock mysteries, or simply share tales of adventure, your messages
-            are treasured scrolls within this realm. Use the form below to send
-            your missives through the ethereal network, and await the whisper of
-            magic in response.
+            Looking to collaborate on DevOps, SRE, cloud infrastructure, or
+            backend platforms? Share the brief, the incident, or the idea —
+            I will get back with a practical next step. Use the form below
+            and I will reply as soon as I can.
           </p>
         </div>
         <Form />

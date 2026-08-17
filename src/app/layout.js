@@ -12,11 +12,11 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    template:
-      "Techyrushi🌻",
-    default:
-      "Techyrushi🌻",
+    template: "%s | Rushikesh Chavan",
+    default: "Rushikesh Chavan | DevOps Engineer",
   },
+  description:
+    "DevOps Engineer, Site Reliability Engineer, and Cloud Infrastructure Engineer with 3+ years of experience in Kubernetes, CI/CD, AWS, and backend systems.",
 };
 
 export default function RootLayout({ children }) {

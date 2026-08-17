@@ -6,37 +6,84 @@ const item = {
   show: { opacity: 1, y: 0 },
 };
 
-const ProjectLink = motion(Link);
-const ProjectLayout = ({ name, description, date, demoLink, imageUrl }) => {
-    // Format the date to exclude the day of the week
-    const formattedDate = new Date(date).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    });
+const ProjectLayout = ({
+  name,
+  description,
+  date,
+  demoLink,
+  imageUrl,
+  stack,
+  secondaryLink,
+  departments = [],
+}) => {
+  const formattedDate = new Date(date).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+  });
+
   return (
-    <ProjectLink
+    <motion.div
       variants={item}
-      href={demoLink}
-      target={"_blank"}
-      className="text-sm md:text-base flex items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
+      className="text-sm md:text-base flex flex-col w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg gap-3"
     >
-      <div className="flex items-center justify-center space-x-2">
-        <img
-          src={imageUrl}
-          alt={name}
-          className="w-10 h-10 rounded-full"
-        />&nbsp;
-        <div>
-          <h2 className="text-foreground text-yellow-100">{name}</h2>
-          <p className="text-muted hidden sm:inline-block text-yellow-100">{description}</p>
+      <div className="flex items-start justify-between gap-4 w-full">
+        <div className="flex items-start space-x-3 min-w-0">
+          <img
+            src={imageUrl}
+            alt={name}
+            className="w-10 h-10 rounded-full bg-white/10 p-1.5 shrink-0"
+          />
+          <div className="min-w-0">
+            <h2 className="text-foreground text-yellow-100 font-semibold">
+              {name}
+            </h2>
+            {stack && (
+              <p className="text-accent/90 text-[11px] sm:text-xs mt-1 leading-relaxed">
+                {stack}
+              </p>
+            )}
+          </div>
         </div>
+        <p className="text-muted sm:text-foreground text-yellow-100 whitespace-nowrap text-xs sm:text-sm shrink-0">
+          {formattedDate}
+        </p>
       </div>
-      <div className="self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted" />
-      <p className="text-muted sm:text-foreground text-yellow-100">
-      {formattedDate}
+      <p className="text-muted text-yellow-100/80 text-xs sm:text-sm leading-relaxed">
+        {description}
       </p>
-    </ProjectLink>
+      {departments.length > 0 && (
+        <div>
+          <p className="text-yellow-100 text-xs sm:text-sm font-medium mb-2">
+            7 Government of Maharashtra departments
+          </p>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 text-yellow-100/70 text-xs sm:text-sm list-disc list-inside">
+            {departments.map((department) => (
+              <li key={department}>{department}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs sm:text-sm">
+        {demoLink && (
+          <Link
+            href={demoLink}
+            target="_blank"
+            className="text-accent hover:underline font-medium"
+          >
+            View project
+          </Link>
+        )}
+        {secondaryLink?.href && (
+          <Link
+            href={secondaryLink.href}
+            target="_blank"
+            className="text-accent hover:underline font-medium"
+          >
+            {secondaryLink.label}
+          </Link>
+        )}
+      </div>
+    </motion.div>
   );
 };
 

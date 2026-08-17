@@ -38,3 +38,15 @@
   75% { transform: rotate(-10deg); }
   100% { transform: rotate(0deg); }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin-slow,
+  .animate-spin-slow-reverse,
+  .animate-gradient-x,
+  .animate-glow-breathe,
+  .animate-pulse-ring,
+  .animate-float-slow,
+  .animate-ping {
+    animation: none !important;
+  }
+}

@@ -34,8 +34,8 @@ export default function Home() {
           <h1 className="font-bold text-yellow-300 text-4xl xs:text-5xl sm:text-6xl  lg:text-7xl text-accent">
             Rushikesh Chavan
           </h1>
-          <p className="font-bold text-white-600 text-foreground text-2xl">
-            &lt; Backend Developer &gt;
+          <p className="font-bold text-white-600 text-foreground text-lg sm:text-2xl">
+            &lt; DevOps Engineer | SRE &gt;
           </p>
         </div>
       </div>

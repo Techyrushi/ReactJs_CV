@@ -1,6 +1,8 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
+import Certifications from "./Certifications";
+import { certificationsData } from "@/app/data";
 
 const AboutDetails = () => {
   return (
@@ -12,26 +14,30 @@ const AboutDetails = () => {
           }
         >
           <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Architect of Reliability
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
-            My journey in web development is driven by a passion for creating robust and efficient backend solutions.
-            With a strong foundation in JavaScript and expertise in Node.js, I build scalable and high-performance applications.
-            I specialize in frameworks like Express.js and Nest.js, enabling seamless integration of server-side logic with user interfaces. My proficiency in PHP and Laravel further enhances my ability to develop dynamic, secure, and database-driven applications.
-            I excel in designing RESTful APIs, managing databases with MySQL and MongoDB, and ensuring application security and performance. My commitment to clean, maintainable code and my collaborative approach make me a valuable asset to any development team.
-            Join me on my journey as I continue to explore new technologies and methodologies, shaping the future of web development with innovative backend solutions.
+            DevOps Engineer and SRE with 3+ years of experience delivering cloud
+            infrastructure, CI/CD automation, and production reliability for SaaS,
+            hosting, gaming, and streaming platforms. I design Kubernetes and Docker
+            platforms, Terraform infrastructure as code, and GitLab / GitHub Actions
+            pipelines so teams ship faster without sacrificing uptime.
+            I keep production healthy with Prometheus, Grafana, ELK, Datadog, and Zabbix,
+            and apply SRE practices — SLO/SLA, on-call, RCA, GitOps, DevSecOps, and DORA
+            metrics. Recent work includes an AIOps SRE assistant that diagnoses incidents
+            from logs, metrics, and cluster health.
           </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}>
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            3+ <sub className="font-semibold text-base">Companies worked with</sub>
+            3+ <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}>
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            1+ <sub className="font-semibold text-base">years of experience</sub>
+            99.9% <sub className="font-semibold text-base">production uptime</sub>
           </p>
         </ItemLayout>
 
@@ -58,11 +64,41 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=js,html,css,git,github,c,cpp,java,linux,mongodb,mysql,nestjs,nodejs,npm,aws,figma,vercel,vscode,laravel,php,bootstrap,bash,kubernetes,docker,azure,express,postman,redis,python,visualstudio`}
-            alt="Techyrushi"
+            src={`https://skillicons.dev/icons?i=aws,linux,bash,docker,kubernetes,terraform,ansible,jenkins,githubactions,grafana,prometheus,nginx,nodejs,nestjs,express,python,java,mongodb,mysql,postgresql,redis,git,github,laravel,php,vscode,postman`}
+            alt="Techyrushi skills"
             loading="lazy"
           />
         </ItemLayout>
+
+        <ItemLayout className={"col-span-full flex-col items-start"}>
+          <h3 className="text-lg md:text-xl text-accent w-full">Education</h3>
+          <div className="w-full space-y-3 text-xs sm:text-sm font-light">
+            <p>
+              <span className="font-semibold text-foreground">Master in Computer Application (MCA)</span>
+              <br />
+              Government College of Engineering, Maharashtra · CGPA 8.65
+              <br />
+              Oct 2022 – Apr 2024
+            </p>
+            <p>
+              <span className="font-semibold text-foreground">Bachelor in Computer Science (BSc CS)</span>
+              <br />
+              Savitribai Phule Pune University, Maharashtra · CGPA 8.86
+              <br />
+              Aug 2019 – Apr 2022
+            </p>
+          </div>
+        </ItemLayout>
+
+        <div className="col-span-full flex flex-col items-start gap-4">
+          <div>
+            <h3 className="text-lg md:text-xl text-accent">Certifications</h3>
+            <p className="text-xs sm:text-sm text-yellow-100/60 mt-1">
+              Cloud, DevOps, SRE, and infrastructure credentials.
+            </p>
+          </div>
+          <Certifications certifications={certificationsData} />
+        </div>
 
         <ItemLayout className={"col-span-6 !p-0"}>
           <img
@@ -74,14 +110,14 @@ const AboutDetails = () => {
         </ItemLayout>
         <ItemLayout className={"col-span-6 !p-0"}>
           <a
-            href="https://github.com/Techyrushi/Dive-into-My-Tech-Project-Collection"
+            href="https://github.com/Techyrushi/argocd-in-one-shot"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               className="w-full h-auto"
-              src="https://github-readme-stats.vercel.app/api/pin/?username=Techyrushi&repo=Dive-into-My-Tech-Project-Collection&hide_border=true&theme=transparent&title_color=FEFE5B&text_color=FFFFFF&text_bold=false&description_lines_count=2&icon_color=FEFE5B"
-              alt="Techyrushi repo"
+              src="https://github-readme-stats.vercel.app/api/pin/?username=Techyrushi&repo=argocd-in-one-shot&hide_border=true&theme=transparent&title_color=FEFE5B&text_color=FFFFFF&text_bold=false&description_lines_count=2&icon_color=FEFE5B"
+              alt="Techyrushi ArgoCD repo"
               loading="lazy"
             />
           </a>
@@ -95,7 +131,6 @@ const AboutDetails = () => {
             loading="lazy"
           />
         </ItemLayout>
-
       </div>
     </section>
   );

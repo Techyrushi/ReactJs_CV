@@ -11,7 +11,8 @@ const container = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.3,
+      staggerChildren: 0.12,
+      delayChildren: 0.35,
     },
   },
 };
@@ -23,36 +24,38 @@ const Navigation = () => {
   const isMedium = size >= 768;
 
   return (
-    <div className="w-full fixed h-screen flex items-center justify-center">
+    <div className="w-full fixed inset-0 z-30 flex items-center justify-center pointer-events-none">
       <ResponsiveComponent>
-        {({ size }) => {
-          return size && size >= 480 ? (
-            <motion.div
-              variants={container}
-              initial="hidden"
-              animate="show"
-              className="w-max flex items-center justify-center relative hover:pause animate-spin-slow group"
-            >
-              {BtnList.map((btn, index) => {
-                const angleRad = (index * angleIncrement * Math.PI) / 180;
-                const radius = isLarge
-                  ? "calc(20vw - 1rem)"
-                  : isMedium
-                  ? "calc(30vw - 1rem)"
-                  : "calc(40vw - 1rem)";
-                const x = `calc(${radius}*${Math.cos(angleRad)})`;
-                const y = `calc(${radius}*${Math.sin(angleRad)})`;
+        {({ size: viewport }) => {
+          return viewport && viewport >= 480 ? (
+            <div className="relative flex items-center justify-center">
+              <motion.div
+                variants={container}
+                initial="hidden"
+                animate="show"
+                className="w-max flex items-center justify-center relative group hover:pause animate-spin-slow pointer-events-auto"
+              >
+                {BtnList.map((btn, index) => {
+                  const angleRad = (index * angleIncrement * Math.PI) / 180;
+                  const radius = isLarge
+                    ? "calc(20vw - 1rem)"
+                    : isMedium
+                    ? "calc(30vw - 1rem)"
+                    : "calc(40vw - 1rem)";
+                  const x = `calc(${radius}*${Math.cos(angleRad)})`;
+                  const y = `calc(${radius}*${Math.sin(angleRad)})`;
 
-                return <NavButton key={btn.label} x={x} y={y} {...btn} />;
-              })}
-            </motion.div>
+                  return <NavButton key={btn.label} x={x} y={y} {...btn} />;
+                })}
+              </motion.div>
+            </div>
           ) : (
             <>
               <motion.div
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 item-start xs:items-center justify-center relative  group xs:hidden"
+                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-3 items-start justify-center relative group xs:hidden pointer-events-auto"
               >
                 {BtnList.slice(0, BtnList.length / 2).map((btn) => {
                   return <NavButton key={btn.label} x={0} y={0} {...btn} />;
@@ -63,7 +66,7 @@ const Navigation = () => {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 items-end xs:items-center justify-center relative group xs:hidden"
+                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-3 items-end justify-center relative group xs:hidden pointer-events-auto"
               >
                 {BtnList.slice(BtnList.length / 2, BtnList.length).map(
                   (btn) => {
