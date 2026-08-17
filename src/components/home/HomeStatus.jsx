@@ -12,7 +12,7 @@ const HomeStatus = () => {
     >
       <div className="flex flex-wrap items-center justify-center gap-2 rounded-full border border-accent/25 bg-background/45 px-3 py-2 backdrop-blur-md shadow-glass-inset">
         <span className="rounded-full bg-accent/10 px-2.5 py-1 text-[10px] xs:text-xs text-yellow-100/90">
-          Nashik, India
+          Pune, India
         </span>
         <span className="hidden xs:inline h-3 w-px bg-accent/30" />
         <span className="rounded-full bg-accent/10 px-2.5 py-1 text-[10px] xs:text-xs text-yellow-100/90">
