@@ -144,6 +144,39 @@ export const certificationsData = [
   },
 ];
 
+export const socialLinks = [
+  {
+    label: "Website",
+    href: "https://techyrushi.vercel.app/",
+    icon: "globe",
+  },
+  {
+    label: "GitHub",
+    href: "https://github.com/Techyrushi",
+    icon: "github",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/chavanrushikesh/",
+    icon: "linkedin",
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/_.iamrushikesh._?igsh=MTh6MDB2czN4bHJycQ==",
+    icon: "instagram",
+  },
+  {
+    label: "LeetCode",
+    href: "https://www.leetcode.com/TechyRushi",
+    icon: "leetcode",
+  },
+  {
+    label: "Email",
+    href: "mailto:rushikeshchavan815@gmail.com",
+    icon: "mail",
+  },
+];
+
 export const BtnList = [
   { label: "Home", link: "/", icon: "home", newTab: false, shortLabel: "Home" },
   { label: "About", link: "/about", icon: "about", newTab: false, shortLabel: "About" },
