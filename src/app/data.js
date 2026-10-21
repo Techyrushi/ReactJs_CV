@@ -205,7 +205,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "https://drive.google.com/file/d/1P9lHn1Ls6T-iu0dyC1U5DHr3T9OKhiSf/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1sC5_Ot8WGrbjvXbK1ihPxBEPW_H2w5Ag/view?usp=drive_link",
     icon: "resume",
     newTab: true,
     shortLabel: "Resume",
