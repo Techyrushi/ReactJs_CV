@@ -1,0 +1,34 @@
+# Rushikesh Chavan
+
+> Portfolio of Rushikesh Chavan, a DevOps Engineer and Site Reliability Engineer based in Pune, Maharashtra, India.
+
+Rushikesh Chavan has 3+ years of experience building and operating cloud infrastructure, CI/CD pipelines, Kubernetes platforms, and reliable production systems. His work includes AWS, Terraform, Docker, GitOps, observability, and backend platforms.
+
+## Portfolio
+
+- [Home](https://techyrushi.in/): Overview and portfolio landing page.
+- [About](https://techyrushi.in/about): Background, education, experience highlights, and certifications.
+- [Projects](https://techyrushi.in/projects): DevOps, SRE, cloud infrastructure, and backend project details.
+- [Experience](https://techyrushi.in/experience): Professional DevOps and SRE experience.
+- [Contact](https://techyrushi.in/contact): Contact form for professional inquiries.
+- [Resume](https://techyrushi.in/RushikeshChavan_SDE.pdf): Downloadable resume.
+
+## Selected work
+
+- AIOps-enabled e-commerce microservices platform on AWS EKS with Terraform, GitHub Actions, ArgoCD, Prometheus, Grafana, and AWS Bedrock.
+- Cloud-native MERN platform with DevSecOps checks, Kubernetes, Helm, Jenkins, and GitOps.
+- Maharashtra Foreign Scholarship Portal serving seven state departments.
+- MYYVO multivendor e-commerce platform with payments, logistics integrations, and Redis caching.
+
+## Expertise
+
+DevOps, Site Reliability Engineering, AWS, Kubernetes, Amazon EKS, Terraform, Docker, CI/CD, GitHub Actions, GitLab CI, Jenkins, ArgoCD, GitOps, Prometheus, Grafana, Datadog, Linux, cloud infrastructure, backend systems, and incident response.
+
+## Profiles
+
+- [GitHub](https://github.com/Techyrushi)
+- [LinkedIn](https://www.linkedin.com/in/chavanrushikesh/)
+- [LeetCode](https://www.leetcode.com/TechyRushi)
+- [Email](mailto:rushikeshchavan815@gmail.com)
+
+For current details, use the portfolio pages and resume linked above.

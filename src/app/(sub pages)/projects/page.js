@@ -12,6 +12,17 @@ const Staff = dynamic(() => import("@/components/models/Staff"), {
 
 export const metadata = {
   title: "Projects",
+  description:
+    "Explore Rushikesh Chavan's DevOps, SRE, AWS, Kubernetes, GitOps, AIOps, and backend engineering projects.",
+  alternates: {
+    canonical: "/projects",
+  },
+  openGraph: {
+    url: "/projects",
+    title: "Projects | Rushikesh Chavan",
+    description:
+      "DevOps, SRE, cloud infrastructure, and backend engineering projects by Rushikesh Chavan.",
+  },
 };
 
 export default function Home() {

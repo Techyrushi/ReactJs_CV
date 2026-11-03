@@ -10,6 +10,17 @@ const HatModel = dynamic(() => import("@/components/models/HatModel"), {
 
 export const metadata = {
   title: "About",
+  description:
+    "Learn about Rushikesh Chavan, a Pune-based DevOps Engineer and SRE, including his education, certifications, and experience building reliable cloud platforms.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    url: "/about",
+    title: "About | Rushikesh Chavan",
+    description:
+      "Background, education, and experience of Rushikesh Chavan, a Pune-based DevOps Engineer and SRE.",
+  },
 };
 
 export default function Home() {

@@ -4,6 +4,17 @@ import Form from "@/components/contact/Form";
 
 export const metadata = {
   title: "Contact",
+  description:
+    "Contact Rushikesh Chavan in Pune, India, about DevOps, Site Reliability Engineering, cloud infrastructure, and backend platform opportunities.",
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    url: "/contact",
+    title: "Contact | Rushikesh Chavan",
+    description:
+      "Get in touch with Rushikesh Chavan about DevOps, SRE, cloud infrastructure, and backend platform opportunities.",
+  },
 };
 
 export default function Contact() {

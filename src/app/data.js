@@ -147,7 +147,7 @@ export const certificationsData = [
 export const socialLinks = [
   {
     label: "Website",
-    href: "https://techyrushi.vercel.app/",
+    href: "https://techyrushi.in/",
     icon: "globe",
   },
   {
@@ -205,7 +205,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "https://drive.google.com/file/d/1sC5_Ot8WGrbjvXbK1ihPxBEPW_H2w5Ag/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1sC5_Ot8WGrbjvXbK1ihPxBEPW_H2w5Ag/view",
     icon: "resume",
     newTab: true,
     shortLabel: "Resume",
