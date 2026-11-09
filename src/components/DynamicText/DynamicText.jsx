@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowUpRight, Briefcase, Sparkles } from "lucide-react";
 import { BtnList } from "@/app/data";
+import useExperienceDuration from "@/hooks/useExperienceDuration";
 
 const container = {
   hidden: { opacity: 0 },
@@ -28,6 +29,8 @@ const item = {
 const resumeLink = BtnList.find((btn) => btn.icon === "resume")?.link;
 
 const DynamicText = () => {
+  const experienceDuration = useExperienceDuration();
+
   return (
     <motion.div
       variants={container}
@@ -76,7 +79,7 @@ const DynamicText = () => {
       >
         <ReactTyped
           strings={[
-            "3+ years building reliable cloud platforms.",
+            `${experienceDuration} years building reliable cloud platforms.`,
             "Kubernetes, Docker, Terraform & GitOps.",
             "AWS Certified Solutions Architect.",
             "CI/CD, observability, and AIOps.",

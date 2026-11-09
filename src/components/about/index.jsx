@@ -3,6 +3,7 @@ import ItemLayout from "./ItemLayout";
 import Certifications from "./Certifications";
 import GitHubShowcase from "./GitHubShowcase";
 import { certificationsData } from "@/app/data";
+import ExperienceDuration from "@/components/ExperienceDuration";
 
 const AboutDetails = () => {
   return (
@@ -20,14 +21,15 @@ const AboutDetails = () => {
             I build and run production platforms: Kubernetes, Docker, Terraform, GitLab /
             GitHub Actions CI/CD, and AWS. The work is SRE-shaped — 99.9% uptime, SLO/SLA,
             on-call, RCA, GitOps, and observability with Prometheus, Grafana, Datadog, and
-            Zabbix. 3+ years shipping cloud infrastructure for hosting, SaaS, gaming, and
+            Zabbix. <ExperienceDuration /> years shipping cloud infrastructure for hosting, SaaS, gaming, and
             streaming. Always learning. Always shipping. Always improving reliability.
           </p>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}>
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            3+ <sub className="font-semibold text-base">years of experience</sub>
+            <ExperienceDuration />{" "}
+            <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
 

@@ -15,11 +15,14 @@ const ProjectLayout = ({
   stack,
   secondaryLink,
   departments = [],
+  devops = [],
 }) => {
-  const formattedDate = new Date(date).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-  });
+  const formattedDate = date
+    ? new Date(date).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "short",
+      })
+    : null;
 
   return (
     <motion.div
@@ -44,9 +47,11 @@ const ProjectLayout = ({
             )}
           </div>
         </div>
-        <p className="text-muted sm:text-foreground text-yellow-100 whitespace-nowrap text-xs sm:text-sm shrink-0">
-          {formattedDate}
-        </p>
+        {date && (
+          <p className="text-muted sm:text-foreground text-yellow-100 whitespace-nowrap text-xs sm:text-sm shrink-0">
+            {formattedDate}
+          </p>
+        )}
       </div>
       <p className="text-muted text-yellow-100/80 text-xs sm:text-sm leading-relaxed">
         {description}
@@ -59,6 +64,23 @@ const ProjectLayout = ({
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1 text-yellow-100/70 text-xs sm:text-sm list-disc list-inside">
             {departments.map((department) => (
               <li key={department}>{department}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {devops.length > 0 && (
+        <div className="rounded-lg border border-accent/20 bg-background/35 p-3 sm:p-4">
+          <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-accent sm:text-sm">
+            DevOps &amp; deployment workflow
+          </h3>
+          <ul className="grid grid-cols-1 gap-2 text-xs leading-relaxed text-yellow-100/75 sm:grid-cols-2 sm:text-sm">
+            {devops.map((highlight) => (
+              <li key={highlight} className="flex items-start gap-2">
+                <span aria-hidden="true" className="mt-1 text-accent">
+                  ▸
+                </span>
+                <span>{highlight}</span>
+              </li>
             ))}
           </ul>
         </div>

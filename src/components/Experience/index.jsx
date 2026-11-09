@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import ExperienceLayout from "./ExperienceLayout";
 import Certifications from "@/components/about/Certifications";
 import { certificationsData } from "@/app/data";
+import useExperienceDuration from "@/hooks/useExperienceDuration";
 
 const container = {
   hidden: { opacity: 0 },
@@ -16,6 +17,8 @@ const container = {
 };
 
 const ExperienceList = ({ experience }) => {
+  const experienceDuration = useExperienceDuration();
+
   return (
     <div>
       <div>
@@ -23,7 +26,7 @@ const ExperienceList = ({ experience }) => {
           Experience
         </h1>
         <p className="text-center text-yellow-100/70 text-sm mb-5 px-4">
-          3+ years focused on DevOps engineering and Site Reliability.
+          {experienceDuration} years focused on DevOps engineering and Site Reliability.
         </p>
       </div>
       <motion.div

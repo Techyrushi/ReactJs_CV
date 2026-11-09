@@ -16,6 +16,7 @@ import {
 import ItemLayout from "./ItemLayout";
 import ActivityGraph from "./ActivityGraph";
 import { certificationsData, socialLinks } from "@/app/data";
+import useExperienceDuration from "@/hooks/useExperienceDuration";
 
 const GITHUB = "https://github.com/Techyrushi";
 const USER = "Techyrushi";
@@ -130,6 +131,7 @@ const FallbackImage = ({ sources, alt, className, fallback }) => {
 };
 
 const GitHubShowcase = () => {
+  const experienceDuration = useExperienceDuration();
   const [profile, setProfile] = useState(null);
   const [repos, setRepos] = useState([]);
 
@@ -374,7 +376,9 @@ const GitHubShowcase = () => {
               key={item.label}
               className="rounded-lg border border-accent/25 bg-background/40 p-2.5 sm:p-3"
             >
-              <p className="text-xl sm:text-2xl font-bold text-accent leading-none">{item.value}</p>
+              <p className="text-xl sm:text-2xl font-bold text-accent leading-none">
+                {item.label === "Years DevOps / SRE" ? experienceDuration : item.value}
+              </p>
               <p className="text-[11px] sm:text-xs font-medium text-yellow-100 mt-1.5 leading-tight">
                 {item.label}
               </p>

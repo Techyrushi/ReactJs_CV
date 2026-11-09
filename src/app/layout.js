@@ -18,7 +18,7 @@ export const metadata = {
     default: "Rushikesh Chavan | DevOps Engineer & SRE in Pune, India",
   },
   description:
-    "Rushikesh Chavan is a Pune-based DevOps Engineer and Site Reliability Engineer with 3+ years of experience in AWS, Kubernetes, Terraform, CI/CD, and production infrastructure.",
+    "Rushikesh Chavan is a Pune-based DevOps Engineer and Site Reliability Engineer with experience in AWS, Kubernetes, Terraform, CI/CD, and production infrastructure.",
   applicationName: "Rushikesh Chavan Portfolio",
   authors: [{ name: "Rushikesh Chavan", url: siteUrl }],
   creator: "Rushikesh Chavan",
@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
     image: `${siteUrl}/icon.svg`,
     jobTitle: "DevOps Engineer and Site Reliability Engineer",
     description:
-      "Pune-based DevOps Engineer and SRE with 3+ years of experience in AWS, Kubernetes, Terraform, CI/CD, cloud infrastructure, and backend systems.",
+      "Pune-based DevOps Engineer and SRE with experience in AWS, Kubernetes, Terraform, CI/CD, cloud infrastructure, and backend systems.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Pune",

@@ -49,6 +49,21 @@ export const projectsData = [
   },
   {
     id: 4,
+    name: "TrikkGadgets — Laravel E-Commerce Platform",
+    description:
+      "Full-stack e-commerce platform with a customer storefront, admin and user dashboards, inventory management, order tracking, and integrated payment and shipping services.",
+    stack: "Laravel 10, PHP 8.1+, MySQL, Blade, Bootstrap, Razorpay, PayPal, BlueDart",
+    demoLink: "https://github.com/Techyrushi/trickkGadegets_ecom",
+    imageUrl: "https://skillicons.dev/icons?i=laravel",
+    devops: [
+      "Release workflow documented for optimized Composer dependencies, frontend asset builds, and database migrations.",
+      "Prepared Laravel production steps for storage linking, configuration and route caching, and queue workers.",
+      "Separated environment configuration for database, mail, payment, OAuth, and shipping integrations; secrets stay outside source control.",
+      "Production checklist covers HTTPS, production debug settings, payment webhooks, and application file permissions.",
+    ],
+  },
+  {
+    id: 5,
     name: "Maharashtra Foreign Scholarship Portal",
     description:
       "Architected and deployed a government-grade portal for the Government of Maharashtra so students can apply for foreign scholarships across 7 state departments. Built on on-premise infrastructure with RBAC, Aadhaar authentication, SBI payments, workflow automation, SSL/TLS, and 99.9% uptime.",
@@ -72,6 +87,7 @@ export const ExperienceData = [
   {
     id: 1,
     name: "BigCloudy Internet Services Pvt. Ltd.",
+    startDate: "2026-05-01",
     role: "DevOps Engineer | SRE",
     description:
       "Owning cloud infrastructure, CI/CD, Kubernetes, and site reliability for hosting, SaaS, gaming, and live-streaming platforms — including Zero1Gaming and CasinoStreamer.",
@@ -89,6 +105,7 @@ export const ExperienceData = [
   {
     id: 2,
     name: "SSD IT Solutions",
+    startDate: "2024-01-01",
     role: "DevOps Engineer | SRE",
     description:
       "DevOps and SRE delivery for enterprise and government platforms — CI/CD, AWS infrastructure as code, GitOps, and production reliability.",
@@ -99,7 +116,7 @@ export const ExperienceData = [
       "Implemented Prometheus, Grafana, and ELK observability to improve incident response and uptime.",
       "Automated Linux production servers, Nginx, SSL/TLS, PM2, backups, and GitOps / IaC workflows.",
     ],
-    dateRange: "Oct 2023 – Apr 2026",
+    dateRange: "Jan 2024 – Apr 2026",
     demoLink: "https://ssditsolutions.com/",
     imageUrl: "https://www.google.com/s2/favicons?sz=128&domain=ssditsolutions.com",
   },
